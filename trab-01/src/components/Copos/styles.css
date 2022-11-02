@@ -1,0 +1,44 @@
+body {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(186, 214, 238);
+    color: crimson;
+}
+   
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
+input{
+    width: 40%;
+    border-radius: 5px;
+    color: rgb(59, 57, 57);
+    background-color: azure;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+button{
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+
+}
